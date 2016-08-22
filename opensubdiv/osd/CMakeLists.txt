@@ -292,7 +292,7 @@ if( CUDA_FOUND )
     endif()
 
     if (UNIX)
-        list( APPEND CUDA_NVCC_FLAGS -Xcompiler -fPIC --gpu-architecture compute_11 )
+        list( APPEND CUDA_NVCC_FLAGS -Xcompiler -fPIC --gpu-architecture compute_20 )
     endif()
 endif()
 
